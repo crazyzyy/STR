@@ -24,7 +24,8 @@
 % [information criteria] ic (ic.AIC, ic.BIC can be used for the selection of p1 and p2)
 
 %% Comments about the input
-% 1. Vi,Ji,S recommanded sampling interval length ~0.5ms (all the following comments are based on 0.5ms interval!)
+% 1. Vi,Ji,S recommanded sampling interval length (after preprocessing) ~0.5ms 
+% (all the following comments are based on 0.5ms interval!)
 % 2. Ji, if the target neuron fires sparsely, it is recommanded to remove more
 % (say -5ms before spike to 5~10ms after spike) from the subthreshold region
 % 3. p1: 5~10. Recommand to change p1 from 1 to 20 and plot the BIC values.
